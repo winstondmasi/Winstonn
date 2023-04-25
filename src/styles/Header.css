@@ -1,0 +1,24 @@
+.Header {
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .Header h1 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .Header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .Header nav ul li {
+    margin-right: 1rem;
+  }
+  
+  .Header nav ul li:last-child {
+    margin-right: 0;
+  }  
