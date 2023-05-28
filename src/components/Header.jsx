@@ -1,21 +1,43 @@
-import React from 'react';
-import "../styles/Header.css";
-import { Link } from 'react-router-dom';
+import React from "react";
 
-function Header() {
-  return (
-    <header className="Header">
-      <h1>Winston</h1>
-      <nav>
-        <ul>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/skills">Skills</Link></li>
-          <li><Link to="/portfolio">Portfolio</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
-    </header>
-  );
+class Header extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      expanded: true,
+      activeKey: "1",
+      visible: true
+    };
+    this.handleSelect = this.handleSelect.bind(this);
+  }
+
+  handleSelect(eventKey) {
+    this.setState({
+      activeKey: eventKey
+    });
+  }
+
+  render() {
+    return (
+      <div id="intro">
+        <span className="header-title">
+          {"hi, "}
+          <span className="header-name">{"Winston"}</span>
+          {" here."}
+        </span>
+        <div className="header-subtitle">I create stuff sometimes.</div>
+        <div className="header-desc">
+          I'm a student at the University of Essex based in Colchester.I have great
+          interest in full-stack development, artificial intelligence,
+          game development and everything to do with computers.
+        </div>
+        <a href="mailto:winstondennismasi@gmail.com" className="header-contact">
+          {"Email"}
+        </a>
+      </div>
+    );
+  }
 }
 
 export default Header;
+
