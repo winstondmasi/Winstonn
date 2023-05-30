@@ -1,8 +1,8 @@
 import React from "react";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
+//import About from "./components/About";
+//import Portfolio from "./components/Portfolio";
 import Header from "./components/Header";
-import Credits from "./components/Credits"
+//import Credits from "./components/Credits"
 import "./App.css";
 import "./styles/Global.css";
 

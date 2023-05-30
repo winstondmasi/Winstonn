@@ -1,10 +1,19 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+  background-color: #61dafb !important;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+::selection {
+  background: var(--lightest-navy) !important; /* WebKit/Blink Browsers */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +23,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282c34 !important;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +34,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb !important;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +45,5 @@
     transform: rotate(360deg);
   }
 }
+
+
