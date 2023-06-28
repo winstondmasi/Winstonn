@@ -9,27 +9,19 @@
 
 .header-title {
   font-family: "NTR", sans-serif;
-  font-size: 86px;
+  color: var(--light-slate);
+  font-size: 50px;
 }
 
-.header-name {
-  font-family: "NTR", sans-serif;
-  color: var(--green-bright) !important;
-  font-weight: bold;
-  font-size: 86px;
-}
 
-.header-subtitle {
-  margin-top: -36px;
-  font-family: "NTR", sans-serif;
-  color: var(--slate);
-  font-weight: 300;
-  font-size: 48px;
-}
 
 .header-desc {
   font-size: 16px;
+  margin-top: 20px;
   margin-bottom: 20px;
+  max-width: 50%;
+  text-align: justify;
+  color: var(--light-gray);
 }
 
 .header-contact {

@@ -20,13 +20,10 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div id="intro">
+      <div id="header">
         <span className="header-title">
-          {"hi, "}
-          <span className="header-name">{"Winston"}</span>
-          {" here."}
+          {"Winston C. Dennis-Masi"}
         </span>
-        <div className="header-subtitle">I create stuff sometimes.</div>
         <div className="header-desc">
           I'm a student at the University of Essex based in Colchester.I have great
           interest in full-stack development, artificial intelligence,
@@ -36,6 +33,7 @@ class Header extends React.Component {
           {"Email"}
         </a>
       </div>
+
     );
   }
 }

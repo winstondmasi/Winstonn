@@ -4,7 +4,7 @@ html {
 }
 
 .App {
-  background-color: #61dafb !important;
+  background-color: var(--matte-black);
 }
 
 .App-logo {
@@ -13,7 +13,7 @@ html {
 }
 
 ::selection {
-  background: var(--lightest-navy) !important; /* WebKit/Blink Browsers */
+  background: var(--lightest-navy); /* WebKit/Blink Browsers */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -23,7 +23,7 @@ html {
 }
 
 .App-header {
-  background-color: #282c34 !important;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
